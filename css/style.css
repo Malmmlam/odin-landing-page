@@ -1,0 +1,88 @@
+/* whole document settings */
+
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* header and top-section plus some shared with footer*/
+
+.top-section, .footer {
+    background-color: #1f2937;
+    font-family: sans-serif;
+} 
+
+.header, .top-body {
+    padding: 24px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 24px 250px;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.top-body {
+    padding: 50px 250px;
+}
+
+.top-section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-main-text, .header-logo {
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text, .header-links, .footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    width: 400px;
+    height: auto;
+}
+
+.hero-secondary-text {
+    width: 450px;
+    height: auto;
+}
+
+.top-image {
+    width: 500px;
+    height: auto;
+}
+
+.sign-up {
+    background-color: rgb(31, 31, 224);
+    color: #F9FAF8;
+    align-self: flex-start;
+    padding: 5px 15px;
+    
+}
